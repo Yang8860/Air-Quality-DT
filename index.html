@@ -589,32 +589,32 @@ body {
 
     function calculateAirQuality() {
         let imgPath = "1.png";
-        let text = "อากาศดีเยี่ยม";
+        let text = "ทันตกรรม";
         let statusColor = "#0284c7";
 
         if (PM25 > 35 || CO2 > 1000) {
             imgPath = "5.png";
-            text = "อันตรายต่อสุขภาพ";
+            text = "ทันตกรรม";
             statusColor = "#ef4444";
         }
         else if (PM25 > 25 || CO2 > 800) {
             imgPath = "4.png";
-            text = "อากาศเริ่มไม่ดี";
+            text = "ทันตกรรม";
             statusColor = "#f97316";
         }
         else if (PM25 > 20 || CO2 > 600) {
             imgPath = "3.png";
-            text = "อากาศปานกลาง";
+            text = "ทันตกรรม";
             statusColor = "#eab308";
         }
         else if (PM25 > 15 || CO2 > 400) {
             imgPath = "2.png";
-            text = "อากาศดี";
+            text = "ทันตกรรม";
             statusColor = "#10b981";
         }
         else {
             imgPath = "1.png";
-            text = "อากาศดีเยี่ยม";
+            text = "ทันตกรรม";
             statusColor = "#0284c7";
         }
 
